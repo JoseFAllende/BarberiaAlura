@@ -1,5 +1,12 @@
 header {
     background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0px auto;
 }
 
 nav{
