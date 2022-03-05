@@ -58,11 +58,29 @@ text-decoration: underline;
     /* Bordes redondeados */
     border-radius: 10px;
 }
+/* Captura de movimiento sobre el elemento producto */
+.productos li:hover{
+    border-color: #c78c19;
+
+}
+
+
+/* Captura el click del mouse */
+.productos li:active{
+border-color: #088c19;
+}
 
 .productos h2{
    font-size: 20px;
    font-weight: bold;
 }
+
+/* Cambia tamaño del h2 dentro del producto. */
+.productos li:hover h2{
+
+    font-size: 33px;
+}
+
 .producto-descripcion{
     font-size: 18px;
 }
