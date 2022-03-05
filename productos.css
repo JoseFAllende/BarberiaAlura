@@ -28,6 +28,13 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+/* Propiedad hover captura el movimiento del mouse sobre el elemento (item del nav) */
+nav a:hover{
+color: #c78c19;
+/* Subrayado links de navegacion */
+text-decoration: underline;
+
+}
 .productos{
     width: 940px;
     margin: 0px auto;
@@ -42,6 +49,14 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    /* Propiedades de borde individuales
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid; */
+    /* Propiedad unificada. Respetar el orden */
+    border: 2px solid #000000;
+    /* Bordes redondeados */
+    border-radius: 10px;
 }
 
 .productos h2{
