@@ -28,3 +28,31 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+.productos{
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px;
+}
+.productos li{
+    /* Permite que los elementos ocupen su ancho y largo y ajustarle el espaciamiento entre ellos  */
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.productos h2{
+   font-size: 20px;
+   font-weight: bold;
+}
+.producto-descripcion{
+    font-size: 18px;
+}
+.producto-precio{
+     font-size: 20px;
+     font-weight: bold;
+     margin-top: 10px;
+}
