@@ -34,6 +34,34 @@
         <label for="telefono">Teléfono</label>
         <input type="text" id="telefono" />
 
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje"></textarea>
+
+        <div>
+          <p>¿Como le gustaría que lo contactemos?</p>
+          <!-- Al tener los radio-button el mismo nombre me permite seleccionar uno solo de ellos -->
+          <label for="radio-email">E-mail</label>
+          <input type="radio" name="contacto" value="email" id="radio-email" />
+
+          <label for="radio-telefono">Teléfono</label>
+          <input
+            type="radio"
+            name="contacto"
+            value="telefono"
+            id="radio-telefono"
+          />
+
+          <label for="radio-whatsapp">WhatsApp</label>
+          <input
+            type="radio"
+            name="contacto"
+            value="whathsapp"
+            id="radio-whatsapp"
+          />
+        </div>
+        <!-- El input está dentro de un label para no tener que relacionarlos con un for e id -->
+        <label><input type="checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>
+
         <input type="submit" value="Enviar formulario" />
       </form>
     </main>
