@@ -26,13 +26,14 @@
     <main>
       <form>
         <label for="nombreyapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreyapellido" class="input-patron" />
+        <!-- required es para informar que el campo debe ser llenado -->
+        <input type="text" id="nombreyapellido" class="input-patron" required/>
 
         <label for="correoelectronico">Correo Electrónico</label>
-        <input type="text" id="correoelectronico" class="input-patron" />
+        <input type="email" id="correoelectronico" class="input-patron" required  placeholder="email@dominio.com"/>
 
         <label for="telefono">Teléfono</label>
-        <input type="text" id="telefono" class="input-patron" />
+        <input type="tel" id="telefono" class="input-patron" required  placeholder="(XX)(XXX)X-XXXXXX"/>
 
         <label for="mensaje">Mensaje</label>
         <textarea
@@ -40,6 +41,7 @@
           rows="10"
           id="mensaje"
           class="input-patron"
+          required
         ></textarea>
 
         <div>
@@ -70,6 +72,7 @@
               name="contacto"
               value="whathsapp"
               id="radio-whatsapp"
+              checked
             />WhatsApp</label
           >
         </div>
@@ -86,7 +89,7 @@
 
         <!-- El input está dentro de un label para no tener que relacionarlos con un for e id -->
         <label class="checkbox"
-          ><input type="checkbox" />¿Le gustaría recibir novedades de la
+          ><input type="checkbox" checked/>¿Le gustaría recibir novedades de la
           Barbería Alura?</label
         >
 
