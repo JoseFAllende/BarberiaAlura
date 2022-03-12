@@ -44,8 +44,8 @@
           required
         ></textarea>
 
-        <div>
-          <p>¿Como le gustaría que lo contactemos?</p>
+        <fieldset>
+          <legend>¿Como le gustaría que lo contactemos?</legend>
           <!-- Al tener los radio-button el mismo nombre me permite seleccionar uno solo de ellos -->
           <!-- Se coloca el input dentro del radio para que aparezca antes el radio y después el input -->
           <label for="radio-email"
@@ -75,17 +75,17 @@
               checked
             />WhatsApp</label
           >
-        </div>
+        </fieldset>
 
-        <div>
+        <fieldset>
           <!-- Lista dropdown -->
-          <p>¿En cual horario prefiere ser atendido?</p>
+          <legend>¿En cual horario prefiere ser atendido?</legend>
           <select>
             <option>Mañana</option>
             <option>Tarde</option>
             <option>Noche</option>
           </select>
-        </div>
+        </fieldset>
 
         <!-- El input está dentro de un label para no tener que relacionarlos con un for e id -->
         <label class="checkbox"
