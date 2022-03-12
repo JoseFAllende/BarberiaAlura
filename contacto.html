@@ -12,7 +12,7 @@
     <header>
       <!-- div para encapsular el h1 y el nav -->
       <div class="caja">
-        <h1><img src="imagenes/logo.png" alt="Logo de la barberia Alura"/></h1>
+        <h1><img src="imagenes/logo.png" alt="Logo de la barberia Alura" /></h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -27,13 +27,25 @@
       <form>
         <label for="nombreyapellido">Nombre y Apellido</label>
         <!-- required es para informar que el campo debe ser llenado -->
-        <input type="text" id="nombreyapellido" class="input-patron" required/>
+        <input type="text" id="nombreyapellido" class="input-patron" required />
 
         <label for="correoelectronico">Correo Electrónico</label>
-        <input type="email" id="correoelectronico" class="input-patron" required  placeholder="email@dominio.com"/>
+        <input
+          type="email"
+          id="correoelectronico"
+          class="input-patron"
+          required
+          placeholder="email@dominio.com"
+        />
 
         <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" class="input-patron" required  placeholder="(XX)(XXX)X-XXXXXX"/>
+        <input
+          type="tel"
+          id="telefono"
+          class="input-patron"
+          required
+          placeholder="(XX)(XXX)X-XXXXXX"
+        />
 
         <label for="mensaje">Mensaje</label>
         <textarea
@@ -89,16 +101,49 @@
 
         <!-- El input está dentro de un label para no tener que relacionarlos con un for e id -->
         <label class="checkbox"
-          ><input type="checkbox" checked/>¿Le gustaría recibir novedades de la
+          ><input type="checkbox" checked />¿Le gustaría recibir novedades de la
           Barbería Alura?</label
         >
 
-        <input type="submit" value="Enviar formulario" class="enviar"/>
+        <input type="submit" value="Enviar formulario" class="enviar" />
       </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th>Horario</th>
+          </tr>
+
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>8h-20h</td>
+          </tr>
+  
+          <tr>
+            <td>Miércoles</td>
+            <td>8h-20h</td>
+          </tr>
+  
+          <tr>
+            <td>Viernes</td>
+            <td>8h-20h</td>
+          </tr>
+
+        </tbody>
+        
+      </table>
     </main>
 
     <footer>
-      <img src="imagenes/logo-blanco.png" alt="logo-barberia allura" alt="Logo de la barberia Alura"/>
+      <img
+        src="imagenes/logo-blanco.png"
+        alt="logo-barberia allura"
+        alt="Logo de la barberia Alura"
+      />
       <!-- &copy agrega el caracter especial de derechos de copia. Mas info en unicod-table.com -->
       <p class="copyright">&copy Copyright Barberia Alura - 2022</p>
     </footer>
