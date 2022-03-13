@@ -181,6 +181,22 @@ th {
   margin: 0 0 1em;
   clear: left;
 }
+/* Pseudo-elemento */
+/* .titulo-principal:first-letter {
+  font-weight: bold;
+}
+
+.titulo-principal:before {
+  content: "[";
+}
+
+.titulo-principal:after {
+    content: "]";
+  }
+
+p:first-line {
+  font-style: italic;
+} */
 
 .principal p {
   margin: 0 0 1em;
@@ -233,6 +249,10 @@ th {
 
 .items {
   line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
 }
 
 .items:first-child {
