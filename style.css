@@ -1,3 +1,8 @@
+/* Aplicamos el css externo a todo el body */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0px;
